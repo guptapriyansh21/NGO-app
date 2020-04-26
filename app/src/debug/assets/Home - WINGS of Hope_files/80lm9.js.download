@@ -1,0 +1,7 @@
+// source --> http://wingsngo.co.in/wp-content/plugins/flow-flow-social-streams/js/require-utils.js?ver=3.1.45 
+var FF_resource = {
+	scriptDeferred: jQuery.Deferred(),
+	styleDeferred: jQuery.Deferred(),
+	scriptLoading: false,
+	styleLoading: false
+};

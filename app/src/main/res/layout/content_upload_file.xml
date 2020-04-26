@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_upload_image"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <EditText
+        android:id="@+id/txtAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject">
+
+    </EditText>
+    <EditText
+        android:id="@+id/txtNotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description">
+
+    </EditText>
+    <TextView
+
+        android:id="@+id/txtFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:text="Select File"
+        android:onClick="selectFile"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.button.MaterialButton>
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+
+        app:mpb_progressStyle="horizontal"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal" />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:text="Upload Files"
+        android:id="@+id/btnUpload"
+        android:onClick="sendNotification"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.button.MaterialButton>
+
+</LinearLayout>

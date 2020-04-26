@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sign_in"
+            android:icon="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_upload_event"
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:title="Create Event" />
+        <item
+            android:id="@+id/nav_upload_image"
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:title="Upload Image" />
+        <item
+            android:id="@+id/nav_upload_digital_materials"
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:title="Upload Digital Materials" />
+        <item
+            android:id="@+id/nav_mark_attendence"
+            android:icon="@drawable/ic_save_black_24dp"
+            android:title="Mark Attendence" />
+
+        <item
+            android:id="@+id/nav_view_attendence"
+            android:icon="@drawable/ic_save_black_24dp"
+            android:title="View Attendence" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_image_black_24dp"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Upcoming Events" />
+        <item
+            android:id="@+id/nav_digital_learning"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Digital Learning" />
+        <item
+            android:id="@+id/nav_payment_donations"
+            android:icon="@drawable/ic_payment_black_24dp"
+
+            android:title="Payment &amp; Donations" />
+        <item
+            android:id="@+id/nav_sponsors"
+            android:icon="@drawable/ic_ac_unit_black_24dp"
+
+            android:title="Be A Sponsor" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_local_florist_black_24dp"
+            android:title="About US" />
+        <item
+            android:id="@+id/nave_contactus"
+            android:icon="@drawable/ic_contact_phone_black_24dp"
+            android:title="Contact" />
+        <item
+            android:id="@+id/nave_feedback"
+            android:icon="@drawable/ic_contact_phone_black_24dp"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout" />
+
+    </group>
+
+</menu>
